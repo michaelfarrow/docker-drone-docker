@@ -1,4 +1,4 @@
-FROM dind
+FROM jpetazzo/dind
 
 RUN apt-get update && apt-get install -y -q curl git
 
